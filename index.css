@@ -1,0 +1,77 @@
+body, html {
+    margin: 0;
+    overflow:hidden;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Cambia el color de fondo si lo deseas */
+}
+#fondo {
+    position: absolute;
+/*     top: 0;
+    left: 0; */
+    height: 200%;
+    width: 200%;
+    background-color: gainsboro;
+    display:none;
+    z-index: -1000;
+    border-radius: 50%;
+}
+
+#fondo2 {
+    position: absolute;
+/*     top: 0;
+    left: 0; */
+    height: 200%;
+    width: 200%;
+    background-color: violet;
+    display:none;
+    z-index: -900;
+    border-radius: 50%;
+}
+
+#heart{
+    width: 300px; /* ajusta el tamaño inicial del corazón */
+    height: 300px; /* ajusta el tamaño inicial del corazón */
+    overflow: hidden;
+    position: absolute;
+    transition: transform 0.3s;
+}
+#heart2 {
+    width: 300px; /* ajusta el tamaño inicial del corazón */
+    height: 300px; /* ajusta el tamaño inicial del corazón */
+    overflow: hidden;
+    position: absolute;
+    display: none;
+    background-color: transparent;
+    margin: 0; /* Elimina los márgenes */
+    padding: 0; /* Elimina el relleno */
+}
+
+#texto{
+    color: aliceblue;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+#heart:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del corazón al hacer hover, manteniendo los bordes de la imagen */
+}
+
+
+
+svg{
+	width:100vw;
+	height:100vh;
+}
+
+.fc1 { fill: hotpink;  }
+.fc2 { fill: hotpink; }
+.fc3 { fill: hotpink;}
+.fc4 { fill: hotpink; }
+
+svg path {
+	fill: inherit;
+}

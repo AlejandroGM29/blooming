@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corazón en CSS</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="index.js"></script>
+    <style>
+        #audio {
+            display: none; /* Oculta el elemento de audio */
+        }
+    </style>
+</head>
+
+<body>
+    <svg id="svg">
+        <defs>
+        <g id="flower">
+            <path class="fc1" fill="none" stroke="#333333" stroke-width="1" 
+                  d="M0,0 q50,-25 100,0 q-50,25 -100,0 q-50,25 -100,0 q50,-25 100,0"/>	
+            <path class="fc2" fill="none" stroke="#333333" stroke-width="1"
+                        d="M0,0 q53.03,-17.68 70.71,-70.71 q-53.03,17.68 -70.71,70.71 q-53.03,17.68 -70.71,70.71 q53.03,-17.68 70.71,-70.71"/>
+            <path class="fc3" fill="none" stroke="#333333" stroke-width="1"
+                      d="M0,0 q25,-50 0,-100 q-25,50 0,100 q-25,50 0,100 q25,-50 0,-100"/>
+            <path class="fc4" fill="none" stroke="#333333" stroke-width="1"
+                      d="M0,0 q-17.68,-53.03 -70.71,-70.71 q17.68,53.03 70.71,70.71 q17.68,53.03 70.71,70.71 q-17.68,-53.03 -70.71,-70.71"/>
+        </g>
+        </defs>
+    </svg>
+    <div id="fondo"></div>
+    <div id="fondo2"></div>
+    <img id="heart" src="heart-svgrepo-com.svg" alt="">
+    <img id="heart2" src="heart-svgrepo-com.svg" alt="">
+    <div id="texto"></div>
+    <audio id="audio" src="utomp3.com - TEARLINER HAEJIN  Blooming Story Love Alarm OST Traducida al Español FMV.mp3"></audio>
+</body>
+
+</html>
